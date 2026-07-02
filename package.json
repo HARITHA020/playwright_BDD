@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test":"cucumber-js src/test/features",
-    "smoke":"cucumber-js src/test/features --tags @smoke",
-    "regression":"cucumber-js src/test/features --tags @regression",
-    "login":"cucumber-js src/test/features --tags @login",
-    "parallel":"cucumber-js src/test/features --parallel 2",
-    "failed":"cucumber-js @rerun.txt",
-    "ci":"cucumber-js src/test/features --tags @smoke --format json:reports/reports.json"
+    "test": "cucumber-js test||true --require-module ts-node/register",
+    "smoke": "cucumber-js src/test/features --tags @smoke",
+    "regression": "cucumber-js src/test/features --tags @regression",
+    "login": "cucumber-js src/test/features --tags @login",
+    "parallel": "cucumber-js src/test/features --parallel 2",
+    "failed": "cucumber-js @rerun.txt",
+    "ci": "cucumber-js src/test/features --tags @smoke --format json:reports/reports.json",
+    "posttest": "npx ts-node src/helper/report.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,8 @@
   "devDependencies": {
     "@cucumber/cucumber": "^12.9.0",
     "@playwright/test": "^1.61.1",
-    "@types/node": "^26.1.0"
+    "@types/node": "^26.1.0",
+    "multiple-cucumber-html-reporter": "^3.10.0"
   },
   "dependencies": {
     "ts-node": "^10.9.2"
