@@ -7,7 +7,7 @@ When the user clicks My Account
 And the user clicks Register
 And user enters first name "haritha"
 And user enters last name "SR"
-And user enters email "haritha31@gmail.com"
+And user enters email "new"
 And user enters telephone "9876543210"
 And user enters password "haritha"
 And user enters confirm password "haritha"

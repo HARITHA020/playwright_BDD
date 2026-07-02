@@ -4,494 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "user-authendication-tests;login-should-be-sucess",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "Login should be sucess",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 3010229700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User navigates to the application",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2176445899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "user click on the login link",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 549601700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "User enter the username as \"arunk\"",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 392850099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 11,
-            "name": "User enter the password as \"Admin143$\"",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 122801299
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 12,
-            "name": "User click on the login button",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 534825499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 13,
-            "name": "Login should be sucess",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 310924600
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1537318699
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login",
-            "line": 7
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "user-authendication-tests;login-should-not-be-success",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Login should not be success",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 3005542499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "User navigates to the application",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:5"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2152618599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "user click on the login link",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 574099499
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 16,
-            "name": "User enter the username as \"arunk\"",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 391805200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 17,
-            "name": "User enter the password as \"\"",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 142338200
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "User click on the login button",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 437795600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "Login should fail",
-            "match": {
-              "location": "src\\test\\steps\\loginstep.ts:32"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 209238699
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1827692499
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login",
-            "line": 14
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "user-authendication-tests",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "User Authendication tests",
-    "tags": [],
-    "uri": "src\\test\\features\\login.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "use-authentication-in-tutorialsninja;login-should-be-successful-with-valid",
-        "keyword": "Scenario",
-        "line": 8,
-        "name": "Login should be successful with valid",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1714322799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 3,
-            "name": "User navigate to the nopWebsite",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1583612399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 4,
-            "name": "User click Myaccount link",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 860838199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "User click the login link",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 671145599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "User enter the email as \"haritha11@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 418399300
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "User enter the password1 as \"haritha\"",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 167842599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 11,
-            "name": "User click login button",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1869267700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 12,
-            "name": "User should see Myaccount",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 494447000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1211537400
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke",
-            "line": 7
-          }
-        ],
-        "type": "scenario"
-      },
-      {
-        "description": "",
-        "id": "use-authentication-in-tutorialsninja;login-should-be-fail-with-invalid-credentials",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Login should be fail with invalid credentials",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1590292099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 3,
-            "name": "User navigate to the nopWebsite",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1435313799
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 4,
-            "name": "User click Myaccount link",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:11"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1008190399
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 5,
-            "name": "User click the login link",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:15"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 529453199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
-            "name": "User enter the email as \"haritha11@gmail.com\"",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:19"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 496849899
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "User enter the password1 as \"hari\"",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:23"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 169260699
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 18,
-            "name": "User click login button",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1625575600
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 19,
-            "name": "User should see the unsuccess error message",
-            "match": {
-              "location": "src\\test\\steps\\tutorialninjaLogin.ts:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 199996500
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 1678248100
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke",
-            "line": 14
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "use-authentication-in-tutorialsninja",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Use Authentication in tutorialsninja",
-    "tags": [],
-    "uri": "src\\test\\features\\tutorialninja.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "register-for-tutorialsninja-website;user-should-register-successfully",
         "keyword": "Scenario",
         "line": 3,
@@ -502,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1901630000
+              "duration": 2396933900
             }
           },
           {
@@ -515,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1159463900
+              "duration": 1137002700
             }
           },
           {
@@ -528,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 933247299
+              "duration": 705558000
             }
           },
           {
@@ -541,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 441369199
+              "duration": 362535900
             }
           },
           {
@@ -554,7 +66,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 548065899
+              "duration": 375523600
             }
           },
           {
@@ -567,20 +79,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 123846700
+              "duration": 112843300
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "user enters email \"haritha31@gmail.com\"",
+            "name": "user enters email \"new\"",
             "match": {
               "location": "src\\test\\steps\\tutorialRegister.ts:25"
             },
             "result": {
               "status": "passed",
-              "duration": 128387399
+              "duration": 80729100
             }
           },
           {
@@ -589,11 +101,11 @@
             "line": 11,
             "name": "user enters telephone \"9876543210\"",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:29"
+              "location": "src\\test\\steps\\tutorialRegister.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 152912799
+              "duration": 78037500
             }
           },
           {
@@ -602,11 +114,11 @@
             "line": 12,
             "name": "user enters password \"haritha\"",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:33"
+              "location": "src\\test\\steps\\tutorialRegister.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 182210200
+              "duration": 94150400
             }
           },
           {
@@ -615,11 +127,11 @@
             "line": 13,
             "name": "user enters confirm password \"haritha\"",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:37"
+              "location": "src\\test\\steps\\tutorialRegister.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 109614099
+              "duration": 70928399
             }
           },
           {
@@ -628,11 +140,11 @@
             "line": 14,
             "name": "user selects the privacy policy",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:41"
+              "location": "src\\test\\steps\\tutorialRegister.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 225640100
+              "duration": 179155099
             }
           },
           {
@@ -641,11 +153,11 @@
             "line": 15,
             "name": "the user clicks Continue button",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:45"
+              "location": "src\\test\\steps\\tutorialRegister.ts:49"
             },
             "result": {
               "status": "passed",
-              "duration": 1185386999
+              "duration": 1045993199
             }
           },
           {
@@ -654,11 +166,11 @@
             "line": 16,
             "name": "user should see Your Account Has Been Created",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:49"
+              "location": "src\\test\\steps\\tutorialRegister.ts:53"
             },
             "result": {
               "status": "passed",
-              "duration": 133376199
+              "duration": 82292299
             }
           },
           {
@@ -667,11 +179,11 @@
             "line": 17,
             "name": "user clicks Continue after registration",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:54"
+              "location": "src\\test\\steps\\tutorialRegister.ts:58"
             },
             "result": {
               "status": "passed",
-              "duration": 477522499
+              "duration": 228454499
             }
           },
           {
@@ -680,11 +192,11 @@
             "line": 18,
             "name": "user should see Logout option",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:58"
+              "location": "src\\test\\steps\\tutorialRegister.ts:62"
             },
             "result": {
               "status": "passed",
-              "duration": 513341700
+              "duration": 130769999
             }
           },
           {
@@ -692,7 +204,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1276969499
+              "duration": 1139374400
             }
           }
         ],
@@ -716,7 +228,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1745226200
+              "duration": 1438740699
             }
           },
           {
@@ -729,7 +241,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1229549200
+              "duration": 1000398200
             }
           },
           {
@@ -742,7 +254,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1159740699
+              "duration": 671468499
             }
           },
           {
@@ -755,7 +267,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 486329200
+              "duration": 499854400
             }
           },
           {
@@ -768,7 +280,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1047940899
+              "duration": 406059800
             }
           },
           {
@@ -781,7 +293,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 130887699
+              "duration": 70263500
             }
           },
           {
@@ -794,7 +306,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 116402500
+              "duration": 77497800
             }
           },
           {
@@ -803,11 +315,11 @@
             "line": 27,
             "name": "user enters telephone \"9876543210\"",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:29"
+              "location": "src\\test\\steps\\tutorialRegister.ts:33"
             },
             "result": {
               "status": "passed",
-              "duration": 124451399
+              "duration": 62366100
             }
           },
           {
@@ -816,11 +328,11 @@
             "line": 28,
             "name": "user enters password \"haritha\"",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:33"
+              "location": "src\\test\\steps\\tutorialRegister.ts:37"
             },
             "result": {
               "status": "passed",
-              "duration": 175822599
+              "duration": 58439000
             }
           },
           {
@@ -829,11 +341,11 @@
             "line": 29,
             "name": "user enters confirm password \"haritha\"",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:37"
+              "location": "src\\test\\steps\\tutorialRegister.ts:41"
             },
             "result": {
               "status": "passed",
-              "duration": 138685000
+              "duration": 55644499
             }
           },
           {
@@ -842,11 +354,11 @@
             "line": 30,
             "name": "user selects the privacy policy",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:41"
+              "location": "src\\test\\steps\\tutorialRegister.ts:45"
             },
             "result": {
               "status": "passed",
-              "duration": 169834600
+              "duration": 124655500
             }
           },
           {
@@ -855,11 +367,11 @@
             "line": 31,
             "name": "the user clicks Continue button",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:45"
+              "location": "src\\test\\steps\\tutorialRegister.ts:49"
             },
             "result": {
               "status": "passed",
-              "duration": 742455900
+              "duration": 648125299
             }
           },
           {
@@ -868,11 +380,11 @@
             "line": 32,
             "name": "user should see email already exists message",
             "match": {
-              "location": "src\\test\\steps\\tutorialRegister.ts:62"
+              "location": "src\\test\\steps\\tutorialRegister.ts:66"
             },
             "result": {
               "status": "passed",
-              "duration": 393356500
+              "duration": 132756499
             }
           },
           {
@@ -880,7 +392,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1804123200
+              "duration": 1137169599
             }
           }
         ],

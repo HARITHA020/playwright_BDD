@@ -22,7 +22,11 @@ When("user enters last name {string}", async function (this:CustomWorld,lname: s
     await this.page.locator("#input-lastname").fill(lname);
 });
 
-When("user enters email {string}", async function (this:CustomWorld,email: string) {
+When("user enters email {string}", async function (this:CustomWorld,email:string) {
+   if (email === "new") {
+        email = "haritha" + Date.now() + "@gmail.com";
+    }
+
     await this.page.locator("#input-email").fill(email);
 });
 
